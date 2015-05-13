@@ -8,7 +8,7 @@ reveal.js:
 	git clone https://github.com/hakimel/reveal.js
 
 slides.html : slides.md
-	pandoc $< -o $@ -t revealjs --table-of-contents --mathjax --standalone --css slides.css --highlight-style=espresso
+	pandoc $< -o $@ --mathjax --standalone --table-of-contents --write=revealjs --css slides.css --highlight-style=espresso
 
 serve:
 	python -m SimpleHTTPServer
