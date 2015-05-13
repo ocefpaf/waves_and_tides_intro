@@ -3,7 +3,7 @@
 
 Para visualizar os sldes navegue para:
 
-https://ocefpaf.github.io/python4oceanographers/waves_and_tides_intro/slides.html
+https://ocefpaf.github.io/waves_and_tides_intro/slides.html
 
 Os slides estão no formato Markdown e podem ser compilados
 para HTML usando o Makefile.
