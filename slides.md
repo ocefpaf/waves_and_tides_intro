@@ -16,8 +16,7 @@ Revisão de conceitos linear vs não-linear
 
 . . .
 
-Pertubação ao ou distúrbio transmitidos através do
-vácuo ou meio gasoso, líquido ou sólido
+Pertubação transmitida através do vácuo ou meio (gasoso, líquido ou sólido).
 
 . . .
 
@@ -107,11 +106,11 @@ Revisão de conceitos linear vs não-linear
 
 # Ondas externas
 
-Até o final da aula vamos focar nas ondas externa.
+Até o final da aula vamos focar nas ondas externas.
 
 . . .
 
-Por que?
+Por quê?
 
 ---
 
@@ -152,19 +151,20 @@ Por que?
 
 ![... ou ondas longas](images/shallow_water_waves.svg)
 
-# Ondas de águas profundas vs profundas
+# Ondas de águas profundas vs rasas
 
 > - Ondas de águas profundas $\left(H \geq \frac{\lambda}{2}\right)$
   > - $C = \frac{\lambda}{T}$
   > - $C_g = \frac{C}{2}$
-> - Ondas de águas profundas $\left(H \leq \frac{L}{20}\right)$
+> - Ondas de águas rasas $\left(H \leq \frac{L}{20}\right)$
   > - $C = \sqrt{gH}$
   > - $C_g = C$
 > - Ondas de águas intermediárias $\left(H > \frac{L}{20} \text{ e } < \frac{L}{2}\right)$
 
 # Fenômenos
 
-### Quase todos os fenômenos observados na propagação de ondas são resultados das diferenças de velocidades de fase e de grupo entre ondas longas e curtas.  Ou da interação entre ondas.
+> - Quase todos os fenômenos observados na propagação de ondas são resultados das diferenças entre as velocidades de fase e de grupo entre ondas longas e curtas.
+> - Ou da interação onda-onda, onda-contorno.
 
 # Interação de ondas
 
