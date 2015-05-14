@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Filipe Fernandes" />
+  <title>Introdução à Oceanografia: Ondas e Marés</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="slides.css"/>
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Introdução à Oceanografia: Ondas e Marés</h1>
+    <h2 class="author">Filipe Fernandes</h2>
+    <h3 class="date">UFBA Maio 12 e 14, 2015</h3>
+</section>
+<section id="TOC">
+<ul>
+<li><a href="#/o-que-é-uma-onda">O que é uma onda?</a></li>
+<li><a href="#/definição-geral">Definição geral</a></li>
+<li><a href="#/equação-de-onda">Equação de onda</a></li>
+<li><a href="#/ondas-internas">Ondas internas</a></li>
+<li><a href="#/ondas-externas">Ondas externas</a></li>
+<li><a href="#/o.-de-águas-profundas...">O. de águas profundas...</a></li>
+<li><a href="#/ondas-de-águas-rasas...">Ondas de águas rasas...</a></li>
+<li><a href="#/ondas-de-águas-profundas-vs-rasas">Ondas de águas profundas vs rasas</a></li>
+<li><a href="#/fenômenos">Fenômenos</a></li>
+<li><a href="#/interação-de-ondas">Interação de ondas</a></li>
+<li><a href="#/ondas-estacionárias">Ondas estacionárias</a></li>
+<li><a href="#/dispersão">Dispersão</a></li>
+<li><a href="#/difração-e-refração">Difração e Refração</a></li>
+<li><a href="#/marés">Marés</a></li>
+<li><a href="#/forças-gravitacional-centrífuga">Forças gravitacional + Centrífuga</a></li>
+<li><a href="#/maré-de-sizígia-spring">Maré de sizígia (Spring)</a></li>
+<li><a href="#/maré-de-sizígia-spring-1">Maré de sizígia (Spring)</a></li>
+<li><a href="#/m.-de-quadratura-neap">M. de quadratura (Neap)</a></li>
+<li><a href="#/m.-de-quadratura-neap-1">M. de quadratura (Neap)</a></li>
+<li><a href="#/registro-de-maré">Registro de Maré</a></li>
+<li><a href="#/componentes-de-maré">Componentes de Maré</a></li>
+<li><a href="#/componentes">Componentes</a></li>
+<li><a href="#/semidiurna">Semidiurna</a></li>
+<li><a href="#/diurna">Diurna</a></li>
+<li><a href="#/mista">Mista</a></li>
+<li><a href="#/mapa-global-dos-tipos-de-maré">Mapa global dos tipos de maré</a></li>
+<li><a href="#/contornos-e-batimetria">Contornos e batimetria</a></li>
+<li><a href="#/maré-interna">Maré interna</a></li>
+<li><a href="#/tsunamis">Tsunamis</a></li>
+</ul>
+</section>
+
+<section id="o-que-é-uma-onda" class="slide level1">
+<h1>O que é uma onda?</h1>
+<figure>
+<img src="images/ireland_wave_w.jpg" />
+</figure>
+<aside class="notes">
+<p>Revisão de conceitos linear vs não-linear</p>
+</aside>
+</section>
+<section id="definição-geral" class="slide level1">
+<h1>Definição geral</h1>
+<div class="fragment">
+<p>Pertubação transmitida através do vácuo ou meio (gasoso, líquido ou sólido).</p>
+</div>
+<div class="fragment">
+<p><em>(1) Faça um paralelo, usando tudo que você sobre ondas em geral, entre ondas sonoras, ondas de luz e ondas no mar.</em></p>
+</div>
+</section>
+<section class="slide level1">
+
+<figure>
+<img src="images/esquema_ondas.svg" alt="Imagem esquemática de uma onda." /><figcaption>Imagem esquemática de uma onda.</figcaption>
+</figure>
+<div class="fragment">
+<p><em>(9) Preencha com nomes apropriados as 5 setas indicativas na figura abaixo.</em></p>
+</div>
+</section>
+<section id="equação-de-onda" class="slide level1">
+<h1>Equação de onda</h1>
+<ul>
+<li><p><span class="math">\(\eta = \eta_o\cos{(kx - \omega t)}\)</span></p></li>
+<li><p><span class="math">\(k = \frac{2\pi}{\lambda}\)</span></p></li>
+<li><p><span class="math">\(\omega = \frac{2\pi}{T}\)</span></p></li>
+<li><p><span class="math">\(C = \frac{\lambda}{T}\)</span> ou <span class="math">\(C = \frac{\omega}{k}\)</span></p></li>
+</ul>
+</section>
+<section class="slide level1">
+
+<p>Ondas transportam apenas <strong>energia</strong>...</p>
+<div class="fragment">
+<p>... em primeira ordem!</p>
+</div>
+<div class="fragment">
+<p>Isso que dizer que ondas também transportam...</p>
+</div>
+<div class="fragment">
+<p><strong>massa</strong>! Mas em segunda ordem.</p>
+<aside class="notes">
+<p>Revisão de conceitos linear vs não-linear</p>
+</aside>
+</div>
+</section>
+<section class="slide level1">
+
+<figure>
+<img src="images/Munk_ICCE_1950_Fig1.svg" alt="Intervalo de valores de espectros de onda no mar. (http://en.wikipedia.org/wiki/File:Munk_ICCE_1950_Fig1.svg)" /><figcaption>Intervalo de valores de espectros de onda no mar. (http://en.wikipedia.org/wiki/File:Munk_ICCE_1950_Fig1.svg)</figcaption>
+</figure>
+</section>
+<section class="slide level1">
+
+<h2 id="tipos-de-onda">Tipos de onda</h2>
+<ul>
+<li class="fragment"><strong>Ondas de superfície</strong>:
+<ul>
+<li class="fragment">Ocorrem na interface oceano/atmosfera</li>
+<li class="fragment">Ondas longas (ou de águas rasas)</li>
+<li class="fragment">Ondas curtas (ou de águas profundas)</li>
+<li class="fragment">Principal forçante: Vento</li>
+<li class="fragment">Força restauradora: Gravidade</li>
+<li class="fragment">Importância: <strong>?</strong></li>
+</ul></li>
+<li class="fragment"><strong>Ondas internas</strong>:
+<ul>
+<li class="fragment">Ocorrem interface de densidades da água do mar.</li>
+<li class="fragment">Principal forçante: Ondas externas</li>
+<li class="fragment">Força restauradora: Gravidade reduzida</li>
+<li class="fragment">Importância: <strong>?</strong></li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="perguntas">Perguntas:</h2>
+<ul>
+<li class="fragment">As oscilações são mais facilmente estabelecidas em uma interface interna ou externa (na superfície do mar)?</li>
+<li class="fragment"><em>Resposta: Interna</em></li>
+<li class="fragment">Quais ondas, de amplitude e comprimento similar, &quot;viajam&quot; mais lentamente: ondas de superfície ou ondas internas?</li>
+<li class="fragment"><em>Resposta: Interna</em></li>
+<li class="fragment">Quais ondas são mais importantes no contexto de processos de mistura vertical: ondas de superfície ou ondas internas?</li>
+<li class="fragment"><em>Resposta: Interna</em></li>
+</ul>
+</section>
+<section id="ondas-internas" class="slide level1">
+<h1>Ondas internas</h1>
+<figure>
+<img src="images/internal_wave_w.jpg" />
+</figure>
+<p><em>(8) O que você entende por Onda Interna?</em></p>
+</section>
+<section id="ondas-externas" class="slide level1">
+<h1>Ondas externas</h1>
+<p>Até o final da aula vamos focar nas ondas externas.</p>
+<div class="fragment">
+<p>Por quê?</p>
+</div>
+</section>
+<section class="slide level1">
+
+<h2 id="fatores-que-levam-ao-desenvolvimento-das-ondas">Fatores que levam ao desenvolvimento das ondas:</h2>
+<ol type="1">
+<li class="fragment">velocidade do vento</li>
+<li class="fragment">tempo em que o vento sopra em uma dada velocidade</li>
+<li class="fragment">pista (<em>fetch</em>) em que o vento sopra sobre um mar desobstruído</li>
+</ol>
+</section>
+<section class="slide level1">
+
+<figure>
+<img src="nonfreefigs/wind_waves.png" alt="Copyrighted image" /><figcaption>Copyrighted image</figcaption>
+</figure>
+<div class="fragment">
+<p><em>(2) Qual é a relação entre ondas no mar e o vento?</em></p>
+</div>
+<div class="fragment">
+<p><em>(6) Ondas em alto mar (profundidade maior que 1000 metros) é igual a Onda do surfista? Justifique sua resposta?</em></p>
+</div>
+<div class="fragment">
+<p><em>(7) O que é &quot;ressaca&quot; no mar? A onda observada durante uma ressaca é diferente da onda observada normalmente?</em></p>
+</div>
+</section>
+<section class="slide level1">
+
+<h2 id="perguntas-1">Perguntas:</h2>
+<ul>
+<li class="fragment">As ondas que vemos todos os dias na praia estão sendo geradas no momento em que as observamos?</li>
+</ul>
+</section>
+<section id="o.-de-águas-profundas..." class="slide level1">
+<h1>O. de águas profundas...</h1>
+<figure>
+<img src="images/deep_water_waves.svg" alt="... ou ondas curtas" /><figcaption>... ou ondas curtas</figcaption>
+</figure>
+</section>
+<section id="ondas-de-águas-rasas..." class="slide level1">
+<h1>Ondas de águas rasas...</h1>
+<figure>
+<img src="images/shallow_water_waves.svg" alt="... ou ondas longas" /><figcaption>... ou ondas longas</figcaption>
+</figure>
+</section>
+<section id="ondas-de-águas-profundas-vs-rasas" class="slide level1">
+<h1>Ondas de águas profundas vs rasas</h1>
+<ul>
+<li class="fragment">Ondas de águas profundas <span class="math">\(\left(H \geq \frac{\lambda}{2}\right)\)</span></li>
+<li class="fragment"><span class="math">\(C = \frac{\lambda}{T}\)</span></li>
+<li class="fragment"><span class="math">\(C_g = \frac{C}{2}\)</span></li>
+<li class="fragment">Ondas de águas rasas <span class="math">\(\left(H \leq \frac{L}{20}\right)\)</span></li>
+<li class="fragment"><span class="math">\(C = \sqrt{gH}\)</span></li>
+<li class="fragment"><span class="math">\(C_g = C\)</span></li>
+<li class="fragment">Ondas de águas intermediárias <span class="math">\(\left(H &gt; \frac{L}{20} \text{ e } &lt; \frac{L}{2}\right)\)</span></li>
+</ul>
+</section>
+<section id="fenômenos" class="slide level1">
+<h1>Fenômenos</h1>
+<ul>
+<li class="fragment">Quase todos os fenômenos observados na propagação de ondas são resultados das diferenças entre as velocidades de fase e de grupo entre ondas longas e curtas.</li>
+<li class="fragment">Ou da interação onda-onda, onda-contorno.</li>
+</ul>
+</section>
+<section id="interação-de-ondas" class="slide level1">
+<h1>Interação de ondas</h1>
+<figure>
+<img src="images/wave_interaction.svg" />
+</figure>
+</section>
+<section id="ondas-estacionárias" class="slide level1">
+<h1>Ondas estacionárias</h1>
+<figure>
+<img src="images/animation_standing_wave.gif" alt="Onda estacionária" /><figcaption>Onda estacionária</figcaption>
+</figure>
+</section>
+<section id="dispersão" class="slide level1">
+<h1>Dispersão</h1>
+<figure>
+<img src="images/animation_group_velocity.gif" alt="Dispersão de ondas" /><figcaption>Dispersão de ondas</figcaption>
+</figure>
+</section>
+<section id="difração-e-refração" class="slide level1">
+<h1>Difração e Refração</h1>
+<figure>
+<img src="images/interference_moher.jpg" />
+</figure>
+<div class="fragment">
+<p><em>(3) Porque as ondas no mar chegam sempre &quot;quase&quot; paralelas à praia?</em></p>
+</div>
+</section>
+<section id="marés" class="slide level1">
+<h1>Marés</h1>
+<div class="fragment">
+<p><em>(4) A maré é uma onda? E o Tsunami é uma onda? Explique sua resposta.</em></p>
+</div>
+<div class="fragment">
+<p><em>(5) O que você pode dizer sobre a periodicidade das ondas no mar, das marés e dos Tsunamis?</em></p>
+</div>
+</section>
+<section id="forças-gravitacional-centrífuga" class="slide level1">
+<h1>Forças gravitacional + Centrífuga</h1>
+<figure>
+<img src="images/tidal_bulge.svg" alt="Modificada de http://en.wikipedia.org/wiki/File:Field_tidal.svg" /><figcaption>Modificada de http://en.wikipedia.org/wiki/File:Field_tidal.svg</figcaption>
+</figure>
+<aside class="notes">
+<ul>
+<li>Maré de equilíbrio (Newton)</li>
+<li>Some da gravidade mais a força centrífuga</li>
+</ul>
+</aside>
+</section>
+<section id="maré-de-sizígia-spring" class="slide level1">
+<h1>Maré de sizígia (Spring)</h1>
+<figure>
+<img src="images/High_tide_sun_moon_opposite_side.png" alt="http://en.wikipedia.org/wiki/File:High_tide_sun_moon_opposite_side.png" /><figcaption>http://en.wikipedia.org/wiki/File:High_tide_sun_moon_opposite_side.png</figcaption>
+</figure>
+<aside class="notes">
+<ul>
+<li>O efeito to sol é 40% o da Lua</li>
+</ul>
+</aside>
+</section>
+<section id="maré-de-sizígia-spring-1" class="slide level1">
+<h1>Maré de sizígia (Spring)</h1>
+<figure>
+<img src="images/High_tide_sun_moon_same_side_end.png" alt="http://en.wikipedia.org/wiki/File:High_tide_sun_moon_same_side_end.png" /><figcaption>http://en.wikipedia.org/wiki/File:High_tide_sun_moon_same_side_end.png</figcaption>
+</figure>
+</section>
+<section id="m.-de-quadratura-neap" class="slide level1">
+<h1>M. de quadratura (Neap)</h1>
+<figure>
+<img src="images/Low_tide_sun_moon_270_degrees.png" alt="http://en.wikipedia.org/wiki/File:Low_tide_sun_moon_270_degrees.png" /><figcaption>http://en.wikipedia.org/wiki/File:Low_tide_sun_moon_270_degrees.png</figcaption>
+</figure>
+</section>
+<section id="m.-de-quadratura-neap-1" class="slide level1">
+<h1>M. de quadratura (Neap)</h1>
+<figure>
+<img src="images/Low_tide_sun_moon_90_degrees.png" alt="http://en.wikipedia.org/wiki/File:Low_tide_sun_moon_90_degrees.png" /><figcaption>http://en.wikipedia.org/wiki/File:Low_tide_sun_moon_90_degrees.png</figcaption>
+</figure>
+</section>
+<section id="registro-de-maré" class="slide level1">
+<h1>Registro de Maré</h1>
+<figure>
+<img src="images/fake_diurnal_tides.svg" />
+</figure>
+<aside class="notes">
+<p>Sistema Lua-Terra gira a cada 27.3 dias</p>
+</aside>
+</section>
+<section id="componentes-de-maré" class="slide level1">
+<h1>Componentes de Maré</h1>
+<figure>
+<img src="images/tidal_constituent_sum.svg" />
+</figure>
+</section>
+<section id="componentes" class="slide level1">
+<h1>Componentes</h1>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Componente</th>
+<th style="text-align: left;">Tipo</th>
+<th style="text-align: left;">Nome</th>
+<th style="text-align: left;">Período (Horas)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>M2</strong></td>
+<td style="text-align: left;">Semidiurna</td>
+<td style="text-align: left;">Principal Lunar</td>
+<td style="text-align: left;">12.4206</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>S2</strong></td>
+<td style="text-align: left;">Semidiurna</td>
+<td style="text-align: left;">Principal Solar</td>
+<td style="text-align: left;">12.0000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>N2</strong></td>
+<td style="text-align: left;">Semidiurna</td>
+<td style="text-align: left;">Elíptica Lunar</td>
+<td style="text-align: left;">12.6584</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>K2</strong></td>
+<td style="text-align: left;">Semidiurna</td>
+<td style="text-align: left;">Lunisolar</td>
+<td style="text-align: left;">11.9673</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>K1</strong></td>
+<td style="text-align: left;">Diurna</td>
+<td style="text-align: left;">Lunisolar</td>
+<td style="text-align: left;">23.9344</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>O1</strong></td>
+<td style="text-align: left;">Diurna</td>
+<td style="text-align: left;">Principal Lunar</td>
+<td style="text-align: left;">25.8194</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>P1</strong></td>
+<td style="text-align: left;">Diurna</td>
+<td style="text-align: left;">Principal Solar</td>
+<td style="text-align: left;">24.0659</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Q1</strong></td>
+<td style="text-align: left;">Diurna</td>
+<td style="text-align: left;">Elíptica Lunar</td>
+<td style="text-align: left;">26.8684</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="semidiurna" class="slide level1">
+<h1>Semidiurna</h1>
+<figure>
+<img src="images/semi-diurnal.png" />
+</figure>
+</section>
+<section id="diurna" class="slide level1">
+<h1>Diurna</h1>
+<figure>
+<img src="images/diurnal.png" />
+</figure>
+</section>
+<section id="mista" class="slide level1">
+<h1>Mista</h1>
+<figure>
+<img src="images/mixed.png" />
+</figure>
+</section>
+<section id="mapa-global-dos-tipos-de-maré" class="slide level1">
+<h1>Mapa global dos tipos de maré</h1>
+<figure>
+<img src="images/tide_type_map.jpg" alt="http://en.wikipedia.org/wiki/File:Diurnal_tide_types_map.jpg" /><figcaption>http://en.wikipedia.org/wiki/File:Diurnal_tide_types_map.jpg</figcaption>
+</figure>
+</section>
+<section id="contornos-e-batimetria" class="slide level1">
+<h1>Contornos e batimetria</h1>
+<figure>
+<img src="images/animation_bathy_corners_effect.gif" />
+</figure>
+</section>
+<section id="maré-interna" class="slide level1">
+<h1>Maré interna</h1>
+<figure>
+<img src="nonfreefigs/internal_tide.png" alt="Copyrighted image" /><figcaption>Copyrighted image</figcaption>
+</figure>
+</section>
+<section class="slide level1">
+
+<p>*(10) Marés, se compararmos o mesmo lugar ao longo do tempo (digamos 1-2 meses), podem variar os níveis máximos e mínimos de altura. Se compararmos lugares diferentes a maré pode mudar sua frequência e suas amplitudes máximas e mínimas. Quais fatores podem estar relacionados com essa mudança?</p>
+</section>
+<section id="tsunamis" class="slide level1">
+<h1>Tsunamis</h1>
+<figure>
+<img src="images/etymology_man.png" alt="http://imgs.xkcd.com/comics/etymology_man.png" /><figcaption>http://imgs.xkcd.com/comics/etymology_man.png</figcaption>
+</figure>
+</section>
+    </div>
+  </div>
+
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>
