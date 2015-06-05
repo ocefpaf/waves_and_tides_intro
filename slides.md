@@ -187,6 +187,23 @@ Por quê?
 
 *(3) Porque as ondas no mar chegam sempre "quase" paralelas à praia?*
 
+# O. como fonte de energia
+
+> - Ondas oceânicas representam uma fonte de energia limpa e renovável;
+> - Essa energia é uma conversão do vento que sopra sobre os oceanos...
+> - ... que por sua vez é uma conversão da energia solar.
+> - Fica a pergunta: *Porque não utilizar a energia do vento ou solar diretamente?*
+
+
+> - Maior disponibilidade, predicabilidade e baixo impacto visual.
+> - A energia das ondas é 5$\times$ mais densa que a energia dos ventos e 10-30 vezes mais que a energia solar;
+> - Alguns números:
+    - Energia solar: 100--200 W m$^{-2}$
+    - Energia de vento: 400--600 W m$^{-2}$
+    - Energia de ondas: 2--3 kW m$^{-2}$
+> - $E = k_EH^2$, onde $k_E = \frac{\rho g}{8} \approx 1.25$ kg m$^{-2}$ s$^{-2}$
+> - Exemplo: $H = 2$ m $\rightarrow E = 5$ kW s m$^{-2}$
+
 # Marés
 
 . . .
@@ -269,13 +286,32 @@ Componente  Tipo         Nome              Período (Horas)
 
 ![http://en.wikipedia.org/wiki/File:Diurnal_tide_types_map.jpg](images/tide_type_map.jpg)
 
+# Pontos Anfidrômicos
+
+![http://commons.wikimedia.org/wiki/File:M2_tidal_constituent.jpg](images/M2_tidal_constituent.jpg)
+
 # Contornos e batimetria
 
 ![](images/animation_bathy_corners_effect.gif)
 
 # Maré interna
 
-![Copyrighted image](nonfreefigs/internal_tide.png)
+![http://dx.doi.org/10.1016/j.dsr2.2004.09.015](nonfreefigs/internal_tide.png)
+
+*Simmons, H. L., Hallberg, R. W., & Arbic, B. K. (2004). Internal wave generation in a global baroclinic tide model. Deep Sea Research Part II: Topical Studies in Oceanography, 51(25), 3043-3068.*
+
+<!--
+@article{simmons2004internal,
+  title={Internal wave generation in a global baroclinic tide model},
+  author={Simmons, Harper L and Hallberg, Robert W and Arbic, Brian K},
+  journal={Deep Sea Research Part II: Topical Studies in Oceanography},
+  volume={51},
+  number={25},
+  pages={3043--3068},
+  year={2004},
+  publisher={Elsevier}
+}
+-->
 
 ---
 
